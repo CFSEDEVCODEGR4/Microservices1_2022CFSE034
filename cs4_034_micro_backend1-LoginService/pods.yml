@@ -3,10 +3,10 @@ kind: Pod
 metadata:
    name: nodeapp
    labels:
-    app: nodeapp
+     app: nodeapp
 spec:
-   containers:
-   - name: nodeapp
-     image: pallavink/2022cfse034-docker-ecr-img
-     ports:
+  containers:
+  - name: nodeapp
+    image: pallavink/2022cfse034-docker-ecr-img
+    ports:
      - containerPort: 8080
