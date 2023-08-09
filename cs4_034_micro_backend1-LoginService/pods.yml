@@ -6,7 +6,7 @@ metadata:
     app: nodeapp
 spec:
   containers:
-    - name: nodeapp
-      image: pallavink/2022cfse034-docker-ecr-img
-      ports:
-      - containerPort: 8080
+  - name: nodeapp
+    image: pallavink/2022cfse034-docker-ecr-img
+    ports:
+    - containerPort: 8080
